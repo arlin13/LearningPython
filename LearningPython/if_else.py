@@ -4,6 +4,10 @@ Int
     0 = false
     > 0 or < 0 = true
 String
+
+    ==  checks equality
+    is  checks if two variables are pointing to the same object in memory !!!
+
 """
 
 # NONE value
