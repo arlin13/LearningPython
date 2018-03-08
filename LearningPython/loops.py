@@ -2,6 +2,7 @@
 LOOPS
 Python has 2 types: For loop and while loops.
 """
+
 print()
 print("---- F_O_R ----")
 print()
