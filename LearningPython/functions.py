@@ -4,7 +4,6 @@ FUNCTIONS
 
 print("I'm being printed by a function!")
 
-
 # def imprimir(text):
 #     print(text)
 
@@ -55,4 +54,30 @@ add_student(student_id=14, name="Caleb")
 
 print()
 print("Arlin", 13, "Grijalba", True, None, 21)
+
+
 # imprimir("Arlin", 13, "Grijalba")
+
+
+# ARGS
+# $ *args
+# can receive as many args as sent
+
+def getting_familiar_with_args(*args):
+    print(args)
+
+
+print()
+getting_familiar_with_args("Arlin", 13, "Grijalba", True, None, 21)
+
+
+# KWARGS (key-word args)
+# $ **kwargs
+# can receive as many args as sent, but now in the form of dictionary
+
+
+def getting_familiar_with_kwargs(**kwargs):
+    print(kwargs["age"], kwargs["height"])
+
+
+getting_familiar_with_kwargs(age=26, height=5.5)
