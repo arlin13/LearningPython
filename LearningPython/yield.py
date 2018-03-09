@@ -8,7 +8,8 @@ def read_file():
     try:
         file = open("yield.txt", "r")
         # for line in file.readlines():
-        for line in read_line(file):
+        # for line in read_line(file):
+        for line in read_proper_nouns_line(file):
             print(line)
         file.close()
     except Exception as error:
@@ -24,6 +25,13 @@ def read_line(file):
 # def read_line(file):
 #     for line in file:
 #         return line
+
+
+# own yield, only proper nouns
+def read_proper_nouns_line(file):
+    for line in file:
+        if line[0].istitle():
+            yield line
 
 
 read_file()
