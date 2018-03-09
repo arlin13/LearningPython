@@ -34,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lambda.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lambda.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lambda.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,6 +111,7 @@
         <option value="$PROJECT_DIR$/yield.py" />
         <option value="$PROJECT_DIR$/lmabda.py" />
         <option value="$PROJECT_DIR$/lambda.py" />
+        <option value="$PROJECT_DIR$/classes.py" />
       </list>
     </option>
   </component>
@@ -174,8 +185,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lambda">
-    <configuration name="exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.classes">
+    <configuration name="classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -187,7 +198,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LearningPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exceptions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,19 +277,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.exceptions" />
-      <item index="1" class="java.lang.String" itemvalue="Python.functions" />
-      <item index="2" class="java.lang.String" itemvalue="Python.students_app" />
-      <item index="3" class="java.lang.String" itemvalue="Python.yield" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lambda" />
+      <item index="0" class="java.lang.String" itemvalue="Python.functions" />
+      <item index="1" class="java.lang.String" itemvalue="Python.students_app" />
+      <item index="2" class="java.lang.String" itemvalue="Python.yield" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lambda" />
+      <item index="4" class="java.lang.String" itemvalue="Python.classes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lambda" />
-        <item index="1" class="java.lang.String" itemvalue="Python.yield" />
-        <item index="2" class="java.lang.String" itemvalue="Python.students_app" />
-        <item index="3" class="java.lang.String" itemvalue="Python.functions" />
-        <item index="4" class="java.lang.String" itemvalue="Python.exceptions" />
+        <item index="0" class="java.lang.String" itemvalue="Python.classes" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lambda" />
+        <item index="2" class="java.lang.String" itemvalue="Python.yield" />
+        <item index="3" class="java.lang.String" itemvalue="Python.students_app" />
+        <item index="4" class="java.lang.String" itemvalue="Python.functions" />
       </list>
     </recent_temporary>
   </component>
@@ -440,8 +451,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lambda.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
