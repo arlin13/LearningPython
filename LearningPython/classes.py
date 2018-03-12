@@ -30,12 +30,28 @@ class Student:
     def get_school_name(self):
         return self.school_name
 
+    def get_type_of_student(self):
+        return "Student"  # self.__class__
+
+
+class HighSchoolStudent(Student):
+    school_name = "Springfield High School"
+
+    def get_type_of_student(self):
+        return "High School Student"
+
 
 student = Student("arlin", "grijalba")
 print(student)
-# print(student.school_name)
+print(student.school_name)
+print(student.get_type_of_student())
 
-print(Student.school_name)
+high_school_student = HighSchoolStudent("roxana", "mora")
+print(high_school_student)
+print(high_school_student.school_name)
+print(high_school_student.get_type_of_student())
+
+# print(Student.school_name)
 
 
 # print(students_list)
