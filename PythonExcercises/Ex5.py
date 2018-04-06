@@ -21,12 +21,6 @@ def generate_random_list():
     return random_list
 
 
-def list_with_common_numbers():
-    # list1
-    # list2
-    return None
-
-
 min_number = input('Lower number (value): ')
 max_number = input('Max number (value): ')
 
@@ -36,12 +30,13 @@ try:
 except TypeError:
     print('Type valid numbers')
 
-
 list1 = generate_random_list()
 list2 = generate_random_list()
 
-print(list1)
-print(list2)
+print(f'List 1: {list1}')
+print(f'List 2: {list2}')
 
 # Actually check common numbers
 # TODO
+print(f'Common numbers: {set(list1) & set(list2)}')
+
